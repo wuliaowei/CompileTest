@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         String c = CompileLibraryTest.TEST;
+        new CompileLibraryTest().getName();
     }
 
     @Override
